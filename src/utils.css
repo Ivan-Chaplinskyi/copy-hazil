@@ -1,0 +1,7 @@
+[data-status="open"] .open {
+    display: none;
+}
+
+[data-status="close"] .close {
+    display: none;
+}

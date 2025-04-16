@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="smooth-scroll">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -7,7 +7,46 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app">
+    <div id="app" class="max-w-[1440px] w-full mx-auto">
+      <h1 hidden>Vite App</h1>
+
+      <header class="header bg-black text-white p-4 flex items-center justify-between gap-4 relative">
+        <a href="/">
+          <img
+            src="/logo.avif"
+            alt="logo"
+            width="105"
+            height="15"
+          />
+        </a>
+        
+        <nav id="header-navigate" class="opacity-0 invisible absolute top-full left-0 bg-black w-full md:w-auto md:opacity-100 md:visible md:bg-transparent md:static">
+          <ul class="flex gap-6 flex-col border-b border-white p-4 md:border-none md:items-center md:p-0 md:flex-row">
+            <li>
+              <a class="hover:text-blue-600 hover:underline" href="#schedule">Book a call</a>
+            </li>
+
+            <li>
+              <a class="hover:text-blue-600 hover:underline" href="#price">See pricing</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button id="menu-toggle" data-status="close" class="opacity-100 md:opacity-0">
+          <!-- Open -->
+          <svg class="open" width="44px" height="44px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M4 18L20 18" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+          <path d="M4 12L20 12" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+          <path d="M4 6L20 6" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+
+          <!-- Close -->
+          <svg class="close" width="44px" height="44px" viewBox="-0.5 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3 21.32L21 3.32001" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3 3.32001L21 21.32" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </header>
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>
