@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('./fonts/Inter-Italic-VariableFont_opsz_wght.ttf') format('truetype');
+  src: url('./fonts/Inter-VariableFont_opsz_wght.ttf') format('truetype');
   font-weight: 100 900;
   font-style: italic;
 }
