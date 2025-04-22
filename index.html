@@ -24,6 +24,7 @@
               <li>
                 <a class="whitespace-nowrap hover:text-blue-600 hover:underline" href="#schedule">Book a call</a>
               </li>
+
               <li>
                 <a class="whitespace-nowrap hover:text-blue-600 hover:underline" href="#price">See pricing</a>
               </li>
@@ -84,19 +85,48 @@
             </h2>
   
             <ul class="mt-20 grid grid-cols-1 gap-4 md:grid-cols-3">
-              <li class="bg-[url('/workflow/plufow-le-studio-unsplash.jpg')] bg-no-repeat bg-center bg-cover text-white text-center rounded-lg gap-1 px-6 flex flex-col items-center justify-center h-[200px]">
+              <li class="text-white text-center gap-1 px-6 flex flex-col items-center justify-center h-[200px] relative">
+                <lazy-image>
+                  <div class="preloader absolute inset-0 bg-gray-200 flex items-center justify-center transition-opacity duration-300">
+                    <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                  </div>
+
+                  <template>
+                    <img src="/workflow/plufow-le-studio-unsplash.jpg" class="w-full h-full object-cover rounded-lg absolute top-0 left-0 z-[-1]" width="208" height="208" alt="image" />
+                  </template>
+                </lazy-image>
                 <h2 class="font-inter font-bold	text-3xl">Subscribe</h2>
   
                 <p class="font-manrope font-bold text-base">Subscribe to a plan & request <br /> as many changes as you’d like.</p>
               </li>
   
-              <li class="bg-[url('/workflow/plufow-le-studio-Bhj-tk-ciH8-unsplash.jpg')] bg-no-repeat bg-center bg-cover text-white text-center rounded-lg gap-1 px-6 flex flex-col items-center justify-center h-[200px]">
+              <li class="text-white text-center rounded-lg gap-1 px-6 flex flex-col items-center justify-center h-[200px] relative">
+                <lazy-image>
+                  <div class="preloader absolute inset-0 bg-gray-200 flex items-center justify-center transition-opacity duration-300">
+                    <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                  </div>
+
+                  <template>
+                    <img src="/workflow/plufow-le-studio-Bhj-tk-ciH8-unsplash.jpg" class="w-full h-full object-cover rounded-lg absolute top-0 left-0 z-[-1]" width="208" height="208" alt="image" />
+                  </template>
+                </lazy-image>
+
                 <h2 class="font-inter font-bold	text-3xl">Request</h2>
   
                 <p class="font-manrope font-bold text-base">Request whatever you'd like, from landing <br /> pages to custom apps.</p>
               </li>
   
-              <li class="bg-[url('/workflow/plufow-le-studio-8LhVNaTYBfI-unsplash.jpg')] bg-no-repeat bg-center bg-cover text-white text-center rounded-lg gap-1 px-6 flex flex-col items-center justify-center h-[200px]">
+              <li class="text-white text-center rounded-lg gap-1 px-6 flex flex-col items-center justify-center h-[200px] relative">
+                <lazy-image>
+                  <div class="preloader absolute inset-0 bg-gray-200 flex items-center justify-center transition-opacity duration-300">
+                    <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                  </div>
+
+                  <template>
+                    <img src="/workflow/plufow-le-studio-8LhVNaTYBfI-unsplash.jpg" class="w-full h-full object-cover rounded-lg absolute top-0 left-0 z-[-1]" width="208" height="208" alt="image" />
+                  </template>
+                </lazy-image>
+
                 <h2 class="font-inter font-bold	text-3xl">Receive</h2>
   
                 <p class="font-manrope font-bold text-base">Receive your design within <br /> two business days on average.</p>
@@ -122,9 +152,17 @@
             <ul class="py-10 gap-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
               <li>
                 <div class="relative w-full h-52">
-                  <img src="/membership-benefits/plufow-le-studio-Z0L3jSkDChs-unsplash.jpg" class="rounded-xl w-full h-full object-cover" loading="lazy" width="208" height="208" alt="image" />
+                  <lazy-image>
+                    <div class="preloader absolute inset-0 bg-gray-200 flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/membership-benefits/plufow-le-studio-Z0L3jSkDChs-unsplash.jpg" class="w-full h-full object-cover rounded-lg absolute top-0 left-0 z-[-1]" width="208" height="208" alt="image" />
 
-                  <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>ic_fluent_board_24_regular</title> <desc>Created with Sketch.</desc> <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="ic_fluent_board_24_regular" fill="#fff" fill-rule="nonzero"> <path d="M18.2513521,2.49820514 C19.9843968,2.49820514 21.4006513,3.85452629 21.4962634,5.56367469 L21.5014083,5.74810161 L21.5008077,17.7519229 C21.5005988,19.5467519 20.0455893,21.0018356 18.2507042,21.0018356 L6.25005624,21.0018356 C4.51701151,21.0018356 3.10075697,19.6455145 3.00514494,17.9363661 L3,17.7519391 L3.00060063,5.74811784 C3.00080955,3.9532889 4.45581897,2.49820514 6.25064792,2.49820514 L18.2513521,2.49820514 Z M11.5,9.49820514 L4.5,9.49920514 L4.50010353,17.7518667 L4.50727563,17.9125936 C4.58838653,18.803788 5.33765319,19.5018356 6.25,19.5018356 L11.5,19.5012051 L11.5,9.49820514 Z M20,15.4982051 L13,15.4992051 L13,19.5012051 L18.2506479,19.5018356 C19.2171619,19.5018356 20.0006952,18.7182622 20.0008077,17.7518046 L20,15.4982051 Z M18.2514083,3.99820514 L13,3.99720514 L13,13.9992051 L20,13.9982051 L20.0013048,5.74817408 L19.9941327,5.58744715 C19.9130218,4.69625278 19.1637551,3.99820514 18.2514083,3.99820514 Z M11.5,3.99720514 L6.25073228,3.99820514 L6.10723072,4.00401666 C5.20785168,4.0770851 4.5007075,4.83010139 4.50060063,5.7482362 L4.5,7.99920514 L11.5,7.99820514 L11.5,3.99720514 Z" > </path> </g> </g> </g></svg>
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12 z-[-1]" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>ic_fluent_board_24_regular</title> <desc>Created with Sketch.</desc> <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="ic_fluent_board_24_regular" fill="#fff" fill-rule="nonzero"> <path d="M18.2513521,2.49820514 C19.9843968,2.49820514 21.4006513,3.85452629 21.4962634,5.56367469 L21.5014083,5.74810161 L21.5008077,17.7519229 C21.5005988,19.5467519 20.0455893,21.0018356 18.2507042,21.0018356 L6.25005624,21.0018356 C4.51701151,21.0018356 3.10075697,19.6455145 3.00514494,17.9363661 L3,17.7519391 L3.00060063,5.74811784 C3.00080955,3.9532889 4.45581897,2.49820514 6.25064792,2.49820514 L18.2513521,2.49820514 Z M11.5,9.49820514 L4.5,9.49920514 L4.50010353,17.7518667 L4.50727563,17.9125936 C4.58838653,18.803788 5.33765319,19.5018356 6.25,19.5018356 L11.5,19.5012051 L11.5,9.49820514 Z M20,15.4982051 L13,15.4992051 L13,19.5012051 L18.2506479,19.5018356 C19.2171619,19.5018356 20.0006952,18.7182622 20.0008077,17.7518046 L20,15.4982051 Z M18.2514083,3.99820514 L13,3.99720514 L13,13.9992051 L20,13.9982051 L20.0013048,5.74817408 L19.9941327,5.58744715 C19.9130218,4.69625278 19.1637551,3.99820514 18.2514083,3.99820514 Z M11.5,3.99720514 L6.25073228,3.99820514 L6.10723072,4.00401666 C5.20785168,4.0770851 4.5007075,4.83010139 4.50060063,5.7482362 L4.5,7.99920514 L11.5,7.99820514 L11.5,3.99720514 Z" > </path> </g> </g> </g></svg>
+                    </template>
+                  </lazy-image>
                 </div>
 
                 <h2 class="text-black text-xl mt-2 font-inter font-bold">Request board</h2>
@@ -136,9 +174,17 @@
 
               <li>
                 <div class="relative w-full h-52">
-                  <img src="/membership-benefits/plufow-le-studio-pN577wqvzXY-unsplash.jpg" class="rounded-xl w-full h-full object-cover" loading="lazy" width="208" height="208" alt="image" />
+                  <lazy-image>
+                    <div class="preloader absolute inset-0 bg-gray-200 flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/membership-benefits/plufow-le-studio-pN577wqvzXY-unsplash.jpg" class="w-full h-full object-cover rounded-lg absolute top-0 left-0 z-[-1]" width="208" height="208" alt="image" />
 
-                  <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 10.0288C7.47142 10 8.05259 10 8.8 10H15.2C15.9474 10 16.5286 10 17 10.0288M7 10.0288C6.41168 10.0647 5.99429 10.1455 5.63803 10.327C5.07354 10.6146 4.6146 11.0735 4.32698 11.638C4 12.2798 4 13.1198 4 14.8V16.2C4 17.8802 4 18.7202 4.32698 19.362C4.6146 19.9265 5.07354 20.3854 5.63803 20.673C6.27976 21 7.11984 21 8.8 21H15.2C16.8802 21 17.7202 21 18.362 20.673C18.9265 20.3854 19.3854 19.9265 19.673 19.362C20 18.7202 20 17.8802 20 16.2V14.8C20 13.1198 20 12.2798 19.673 11.638C19.3854 11.0735 18.9265 10.6146 18.362 10.327C18.0057 10.1455 17.5883 10.0647 17 10.0288M7 10.0288V8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8V10.0288" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12 z-[-1]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 10.0288C7.47142 10 8.05259 10 8.8 10H15.2C15.9474 10 16.5286 10 17 10.0288M7 10.0288C6.41168 10.0647 5.99429 10.1455 5.63803 10.327C5.07354 10.6146 4.6146 11.0735 4.32698 11.638C4 12.2798 4 13.1198 4 14.8V16.2C4 17.8802 4 18.7202 4.32698 19.362C4.6146 19.9265 5.07354 20.3854 5.63803 20.673C6.27976 21 7.11984 21 8.8 21H15.2C16.8802 21 17.7202 21 18.362 20.673C18.9265 20.3854 19.3854 19.9265 19.673 19.362C20 18.7202 20 17.8802 20 16.2V14.8C20 13.1198 20 12.2798 19.673 11.638C19.3854 11.0735 18.9265 10.6146 18.362 10.327C18.0057 10.1455 17.5883 10.0647 17 10.0288M7 10.0288V8C7 5.23858 9.23858 3 12 3C14.7614 3 17 5.23858 17 8V10.0288" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </template>
+                  </lazy-image>
                 </div>
 
                 <h2 class="text-black text-xl mt-2 font-inter font-bold">Fixed monthly Rate</h2>
@@ -150,9 +196,17 @@
 
               <li>
                 <div class="relative w-full h-52">
-                  <img src="/membership-benefits/pawel-czerwinski-fJeVHoyapEk-unsplash.jpg" class="rounded-xl w-full h-full object-cover" loading="lazy" width="208" height="208" alt="image" />
+                  <lazy-image>
+                    <div class="preloader absolute inset-0 bg-gray-200 flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/membership-benefits/pawel-czerwinski-fJeVHoyapEk-unsplash.jpg" class="w-full h-full object-cover rounded-lg absolute top-0 left-0 z-[-1]" width="208" height="208" alt="image" />
 
-                  <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Lightning-Bolt</title> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Lightning-Bolt"> <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="24" height="24"> </rect> <path d="M6.8618,11.2764 L10.8618,3.27639 C10.9465,3.107 11.1196,3 11.309,3 L17.0397,3 C17.4442,3 17.6813,3.45534 17.4493,3.78673 L15.0507,7.21327 C14.8187,7.54466 15.0558,8 15.4603,8 L16.9129,8 C17.3401,8 17.5705,8.50106 17.2925,8.8254 L7.96557,19.7068 C7.59763,20.1361 6.91173,19.7207 7.1217,19.1957 L9.72572,12.6857 C9.85709,12.3573 9.61522,12 9.26148,12 L7.30902,12 C6.93733,12 6.69558,11.6088 6.8618,11.2764 Z" id="Path" stroke="#ffffff" stroke-width="2" stroke-linecap="round"> </path> </g> </g> </g></svg>
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12 z-[-1]" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>Lightning-Bolt</title> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Lightning-Bolt"> <rect id="Rectangle" fill-rule="nonzero" x="0" y="0" width="24" height="24"> </rect> <path d="M6.8618,11.2764 L10.8618,3.27639 C10.9465,3.107 11.1196,3 11.309,3 L17.0397,3 C17.4442,3 17.6813,3.45534 17.4493,3.78673 L15.0507,7.21327 C14.8187,7.54466 15.0558,8 15.4603,8 L16.9129,8 C17.3401,8 17.5705,8.50106 17.2925,8.8254 L7.96557,19.7068 C7.59763,20.1361 6.91173,19.7207 7.1217,19.1957 L9.72572,12.6857 C9.85709,12.3573 9.61522,12 9.26148,12 L7.30902,12 C6.93733,12 6.69558,11.6088 6.8618,11.2764 Z" id="Path" stroke="#ffffff" stroke-width="2" stroke-linecap="round"> </path> </g> </g> </g></svg>
+                    </template>
+                  </lazy-image>
                 </div>
 
                 <h2 class="text-black text-xl mt-2 font-inter font-bold">Fast Delivery</h2>
@@ -164,9 +218,17 @@
 
               <li>
                 <div class="relative w-full h-52">
-                  <img src="/membership-benefits/david-kidd-STWpM_WPrEs-unsplash.jpg" class="rounded-xl w-full h-full object-cover" loading="lazy" width="208" height="208" alt="image" />
+                  <lazy-image>
+                    <div class="preloader absolute inset-0 bg-gray-200 flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/membership-benefits/david-kidd-STWpM_WPrEs-unsplash.jpg" class="w-full h-full object-cover rounded-lg absolute top-0 left-0 z-[-1]" width="208" height="208" alt="image" />
 
-                  <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12 z-[-1]" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M11.2691 4.41115C11.5006 3.89177 11.6164 3.63208 11.7776 3.55211C11.9176 3.48263 12.082 3.48263 12.222 3.55211C12.3832 3.63208 12.499 3.89177 12.7305 4.41115L14.5745 8.54808C14.643 8.70162 14.6772 8.77839 14.7302 8.83718C14.777 8.8892 14.8343 8.93081 14.8982 8.95929C14.9705 8.99149 15.0541 9.00031 15.2213 9.01795L19.7256 9.49336C20.2911 9.55304 20.5738 9.58288 20.6997 9.71147C20.809 9.82316 20.8598 9.97956 20.837 10.1342C20.8108 10.3122 20.5996 10.5025 20.1772 10.8832L16.8125 13.9154C16.6877 14.0279 16.6252 14.0842 16.5857 14.1527C16.5507 14.2134 16.5288 14.2807 16.5215 14.3503C16.5132 14.429 16.5306 14.5112 16.5655 14.6757L17.5053 19.1064C17.6233 19.6627 17.6823 19.9408 17.5989 20.1002C17.5264 20.2388 17.3934 20.3354 17.2393 20.3615C17.0619 20.3915 16.8156 20.2495 16.323 19.9654L12.3995 17.7024C12.2539 17.6184 12.1811 17.5765 12.1037 17.56C12.0352 17.5455 11.9644 17.5455 11.8959 17.56C11.8185 17.5765 11.7457 17.6184 11.6001 17.7024L7.67662 19.9654C7.18404 20.2495 6.93775 20.3915 6.76034 20.3615C6.60623 20.3354 6.47319 20.2388 6.40075 20.1002C6.31736 19.9408 6.37635 19.6627 6.49434 19.1064L7.4341 14.6757C7.46898 14.5112 7.48642 14.429 7.47814 14.3503C7.47081 14.2807 7.44894 14.2134 7.41394 14.1527C7.37439 14.0842 7.31195 14.0279 7.18708 13.9154L3.82246 10.8832C3.40005 10.5025 3.18884 10.3122 3.16258 10.1342C3.13978 9.97956 3.19059 9.82316 3.29993 9.71147C3.42581 9.58288 3.70856 9.55304 4.27406 9.49336L8.77835 9.01795C8.94553 9.00031 9.02911 8.99149 9.10139 8.95929C9.16534 8.93081 9.2226 8.8892 9.26946 8.83718C9.32241 8.77839 9.35663 8.70162 9.42508 8.54808L11.2691 4.41115Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                    </template>
+                  </lazy-image>
                 </div>
 
                 <h2 class="text-black text-xl mt-2 font-inter font-bold">Top-notch quality</h2>
@@ -178,9 +240,17 @@
 
               <li>
                 <div class="relative w-full h-52">
-                  <img src="/membership-benefits/pawel-czerwinski-6T-4mtfQ4tM-unsplash.jpg" class="rounded-xl w-full h-full object-cover" loading="lazy" width="208" height="208" alt="image" />
+                  <lazy-image>
+                    <div class="preloader absolute inset-0 bg-gray-200 flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/membership-benefits/pawel-czerwinski-6T-4mtfQ4tM-unsplash.jpg" class="w-full h-full object-cover rounded-lg absolute top-0 left-0 z-[-1]" width="208" height="208" alt="image" />
 
-                  <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 1H1V5H7V1Z" fill="#ffffff"></path> <path d="M7 7H1V15H7V7Z" fill="#ffffff"></path> <path d="M9 1H15V9H9V1Z" fill="#ffffff"></path> <path d="M15 11H9V15H15V11Z" fill="#ffffff"></path> </g></svg>
+                      <svg class="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-12 h-12 z-[-1]" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M7 1H1V5H7V1Z" fill="#ffffff"></path> <path d="M7 7H1V15H7V7Z" fill="#ffffff"></path> <path d="M9 1H15V9H9V1Z" fill="#ffffff"></path> <path d="M15 11H9V15H15V11Z" fill="#ffffff"></path> </g></svg>
+                    </template>
+                  </lazy-image>
                 </div>
 
                 <h2 class="text-black text-xl mt-2 font-inter font-bold">Flexible and scalable</h2>
@@ -197,82 +267,162 @@
           <div class="container-block w-full">
             <h2 class="font-medium text-white text-center font-figtree text-4xl md:text-6xl">Recent Work</h2>
 
-            <ul class="gap-8 mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-              <li class="h-fit">
-                <a href="https://simplewishes.com/" target="_blank" rel="noopener">
-                  <img src="/recent-work/simplewishes.com.png" class="rounded-xl w-full h-full object-cover border-4 border-white" loading="lazy" width="208" height="208" alt="image" />
+            <ul class="grid grid-rows-[minmax(300px,_auto)] grid-cols-1 gap-8 mt-12 sm:grid-cols-2 md:grid-cols-3">
+              <li>
+                <a href="https://simplewishes.com/" target="_blank" rel="noopener" class="block">
+                  <lazy-image class="relative w-full h-10">
+                    <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/recent-work/simplewishes.com.png" class="w-full h-full object-cover rounded-lg z-[-1] border-4 border-white" width="208" height="208" alt="image" />
+                    </template>
+                  </lazy-image>
 
                   <h2 class="text-base font-normal font-inter text-center text-white mt-6">Simple Wishes</h2>
                 </a>
               </li>
 
-              <li class="h-fit">
-                <a href="https://harvestdental.com/" target="_blank" rel="noopener">
-                  <img src="/recent-work/harvestdental.com.png" class="rounded-xl w-full h-full object-cover border-4 border-white" loading="lazy" width="208" height="208" alt="image" />
+              <li>
+                <a href="https://harvestdental.com/" target="_blank" rel="noopener" class="block">
+                  <lazy-image class="relative w-full h-10">
+                    <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/recent-work/harvestdental.com.png" class="w-full h-full object-cover rounded-lg z-[-1] border-4 border-white" width="208" height="208" alt="image" />
+                    </template>
+                  </lazy-image>
 
                   <h2 class="text-base font-normal font-inter text-center text-white mt-6">Harvest Dental</h2>
                 </a>
               </li>
 
-              <li class="h-fit">
-                <a href="https://rseventures.com/" target="_blank" rel="noopener">
-                  <img src="/recent-work/rseventures.com.png" class="rounded-xl w-full h-full object-cover border-4 border-white" loading="lazy" width="208" height="208" alt="image" />
+              <li>
+                <a href="https://rseventures.com/" target="_blank" rel="noopener" class="block">
+                  <lazy-image class="relative w-full h-10">
+                    <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/recent-work/rseventures.com.png" class="w-full h-full object-cover rounded-lg z-[-1] border-4 border-white" width="208" height="208" alt="image" />
+                    </template>
+                  </lazy-image>
 
                   <h2 class="text-base font-normal font-inter text-center text-white mt-6">RSE Ventures</h2>
                 </a>
               </li>
 
-              <li class="h-fit">
-                <a href="https://rebel3d.com/" target="_blank" rel="noopener">
-                  <img src="/recent-work/rebel3d.com.png" class="rounded-xl w-full h-full object-cover border-4 border-white" loading="lazy" width="208" height="208" alt="image" />
+              <li>
+                <a href="https://rebel3d.com/" target="_blank" rel="noopener" class="block">
+                  <lazy-image class="relative w-full h-10">
+                    <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/recent-work/rebel3d.com.png" class="w-full h-full object-cover rounded-lg z-[-1] border-4 border-white" width="208" height="208" alt="image" />
+                    </template>
+                  </lazy-image>
 
                   <h2 class="text-base font-normal font-inter text-center text-white mt-6">rebel3d</h2>
                 </a>
               </li>
 
-              <li class="h-fit">
-                <a href="https://www.theaddvisor.com/" target="_blank" rel="noopener">
-                  <img src="/recent-work/theaddvisor.com.png" class="rounded-xl w-full h-full object-cover border-4 border-white" loading="lazy" width="208" height="208" alt="image" />
+              <li>
+                <a href="https://www.theaddvisor.com/" target="_blank" rel="noopener" class="block">
+                  <lazy-image class="relative w-full h-10">
+                    <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/recent-work/theaddvisor.com.png" class="w-full h-full object-cover rounded-lg z-[-1] border-4 border-white" width="208" height="208" alt="image" />
+                    </template>
+                  </lazy-image>
 
                   <h2 class="text-base font-normal font-inter text-center text-white mt-6">The ADDVISOR</h2>
                 </a>
               </li>
 
-              <li class="h-fit">
-                <a href="https://www.wallien.com/" target="_blank" rel="noopener">
-                  <img src="/recent-work/wallien.com.png" class="rounded-xl w-full h-full object-cover border-4 border-white" loading="lazy" width="208" height="208" alt="image" />
+              <li>
+                <a href="https://www.wallien.com/" target="_blank" rel="noopener" class="block">
+                  <lazy-image class="relative w-full h-10">
+                    <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/recent-work/wallien.com.png" class="w-full h-full object-cover rounded-lg z-[-1] border-4 border-white" width="208" height="208" alt="image" />
+                    </template>
+                  </lazy-image>
 
                   <h2 class="text-base font-normal font-inter text-center text-white mt-6">WALLIEN</h2>
                 </a>
               </li>
 
-              <li class="h-fit">
-                <a href="https://gaucholife.com/" target="_blank" rel="noopener">
-                  <img src="/recent-work/gaucholife.com.png" class="rounded-xl w-full h-full object-cover border-4 border-white" loading="lazy" width="208" height="208" alt="image" />
+              <li>
+                <a href="https://gaucholife.com/" target="_blank" rel="noopener" class="block">
+                  <lazy-image class="relative w-full h-10">
+                    <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/recent-work/gaucholife.com.png" class="w-full h-full object-cover rounded-lg z-[-1] border-4 border-white" width="208" height="208" alt="image" />
+                    </template>
+                  </lazy-image>
 
                   <h2 class="text-base font-normal font-inter text-center text-white mt-6">Gaucho Life</h2>
                 </a>
               </li>
 
-              <li class="h-fit">
-                <a href="https://akarashop.com/" target="_blank" rel="noopener">
-                  <img src="/recent-work/akarashop.com.png" class="rounded-xl w-full h-full object-cover border-4 border-white" loading="lazy" width="208" height="208" alt="image" />
+              <li>
+                <a href="https://akarashop.com/" target="_blank" rel="noopener" class="block">
+                  <lazy-image class="relative w-full h-10">
+                    <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/recent-work/akarashop.com.png" class="w-full h-full object-cover rounded-lg z-[-1] border-4 border-white" width="208" height="208" alt="image" />
+                    </template>
+                  </lazy-image>
 
                   <h2 class="text-base font-normal font-inter text-center text-white mt-6">Akara</h2>
                 </a>
               </li>
 
-              <li class="h-fit">
-                <a href="https://loomlan.com/" target="_blank" rel="noopener">
-                  <img src="/recent-work/loomlan.com.png" class="rounded-xl w-full h-full object-cover border-4 border-white" loading="lazy" width="208" height="208" alt="image" />
+              <li>
+                <a href="https://loomlan.com/" target="_blank" rel="noopener" class="block">
+                  <lazy-image class="relative w-full h-10">
+                    <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/recent-work/loomlan.com.png" class="w-full h-full object-cover rounded-lg z-[-1] border-4 border-white" width="208" height="208" alt="image" />
+                    </template>
+                  </lazy-image>
 
                   <h2 class="text-base font-normal font-inter text-center text-white mt-6">LOOMLAN</h2>
                 </a>
               </li>
 
-              <li class="h-fit">
-                <a href="https://rockflowerpaper.com/" target="_blank" rel="noopener">
-                  <img src="/recent-work/rockflowerpaper.com.png" class="rounded-xl w-full h-full object-cover border-4 border-white" loading="lazy" width="208" height="208" alt="image" />
+              <li>
+                <a href="https://rockflowerpaper.com/" target="_blank" rel="noopener" class="block">
+                  <lazy-image class="relative w-full h-10">
+                    <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                      <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                    </div>
+  
+                    <template>
+                      <img src="/recent-work/rockflowerpaper.com.png" class="w-full h-full object-cover rounded-lg z-[-1] border-4 border-white" width="208" height="208" alt="image" />
+                    </template>
+                  </lazy-image>
 
                   <h2 class="text-base font-normal font-inter text-center text-white mt-6">rockflowerpaper</h2>
                 </a>
@@ -281,19 +431,51 @@
 
             <ul class="flex items-center justify-evenly flex-wrap gap-4 mt-10">
               <li>
-                <img src="/recent-work-brands/ups.avif" class="h-20 object-contain" loading="lazy" width="208" height="208" alt="image" />
+                <lazy-image class="relative w-full h-10">
+                  <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                    <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                  </div>
+
+                  <template>
+                    <img src="/recent-work-brands/ups.avif" class="h-20 object-contain z-[-1]" width="208" height="208" alt="image" />
+                  </template>
+                </lazy-image>
               </li>
 
               <li>
-                <img src="/recent-work-brands/ny.avif" class="h-20 object-contain" loading="lazy" width="208" height="208" alt="image" />
+                <lazy-image class="relative w-full h-10">
+                  <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                    <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                  </div>
+
+                  <template>
+                    <img src="/recent-work-brands/ny.avif" class="h-20 object-contain z-[-1]" width="208" height="208" alt="image" />
+                  </template>
+                </lazy-image>
               </li>
 
               <li>
-                <img src="/recent-work-brands/img.avif" class="h-20 object-contain" loading="lazy" width="208" height="208" alt="image" />
+                <lazy-image class="relative w-full h-10">
+                  <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                    <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                  </div>
+
+                  <template>
+                    <img src="/recent-work-brands/img.avif" class="h-20 object-contain z-[-1]" width="208" height="208" alt="image" />
+                  </template>
+                </lazy-image>
               </li>
 
               <li>
-                <img src="/recent-work-brands/wimbledon.avif" class="h-20 object-contain" loading="lazy" width="208" height="208" alt="image" />
+                <lazy-image class="relative w-full h-10">
+                  <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                    <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                  </div>
+
+                  <template>
+                    <img src="/recent-work-brands/wimbledon.avif" class="h-20 object-contain z-[-1]" width="208" height="208" alt="image" />
+                  </template>
+                </lazy-image>
               </li>
             </ul>
           </div>
@@ -308,7 +490,17 @@
             </h2>
 
             <div class="mt-10 flex justify-center gap-4">
-              <div class="bg-[url('/price/price.png')] bg-no-repeat bg-center bg-cover w-full rounded-xl p-4 border border-black max-w-full md:max-w-[400px]">
+              <div class="relative w-full rounded-xl p-4 max-w-full md:max-w-[400px]">
+                <lazy-image>
+                  <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                    <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                  </div>
+
+                  <template>
+                    <img src="/price/price.png" class="absolute left-0 top-0 w-full h-full z-[-1] rounded-xl" width="208" height="208" alt="image" />
+                  </template>
+                </lazy-image>
+
                 <h2 class="text-white font-inter font-black text-3xl">Monthly Club</h2>
   
                 <p class="text-white font-inter font-semibold text-xs">PAUSE OR CANCEL ANYTIME</p>
@@ -478,7 +670,17 @@
               </ul>
             </div>
 
-            <div class="sticky top-1 bg-[url('/faq/faq.jpg')] bg-no-repeat bg-center h-fit rounded-xl p-8 lg:col-span-2">
+            <div class="sticky top-1 h-fit rounded-xl p-8 lg:col-span-2">
+              <lazy-image>
+                <div class="preloader absolute inset-0 bg-black flex items-center justify-center transition-opacity duration-300">
+                  <div class="loader w-8 h-8 border-4 border-t-transparent border-gray-500 rounded-full animate-spin"></div>
+                </div>
+
+                <template>
+                  <img src="/faq/faq.jpg" class="absolute left-0 top-0 w-full h-full z-[-1] rounded-xl" width="208" height="208" alt="image" />
+                </template>
+              </lazy-image>
+
               <h2 class="text-white font-figtree font-bold text-4xl">Book a 15 min intro call</h2>
 
               <a href="#schedule" class="block w-full p-4 bg-white text-black mt-4 text-center rounded-xl font-inter font-semibold text-xl">Book a call</a>
